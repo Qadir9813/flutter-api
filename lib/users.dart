@@ -42,7 +42,7 @@ class _UserModelState extends State<UserModel> {
                       itemCount: snapshot.data!.products!.length,
                       itemBuilder: (context,index){
                         return Container(
-                          child: Column(
+                          child:  Column(
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
                                 Text('Height:${snapshot.data!.products![index].dimensions!.height.toString()}'),

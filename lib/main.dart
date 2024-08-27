@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter_demo/multiscroll.dart';
 import 'package:flutter_demo/users.dart';
 import 'package:http/http.dart' as http;
+
 
 import 'model/Post2.dart';
 
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: UserModel(),
+      home: Multiscroll(),
     );
   }
 }
